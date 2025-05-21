@@ -84,7 +84,7 @@ rake
 
 ## Initialize the API Client
 
-**_Note:_** Documentation for the client can be found [here.](https://www.github.com/tahaali2000/a-sqa-ruby-sdk/tree/1.8.9/doc/client.md)
+**_Note:_** Documentation for the client can be found [here.](https://www.github.com/tahaali2000/a-sqa-ruby-sdk/tree/4.5.7/doc/client.md)
 
 The following parameters are configurable for the API Client:
 
@@ -100,7 +100,7 @@ The following parameters are configurable for the API Client:
 | retry_statuses | `Array` | A list of HTTP statuses to retry. <br> **Default: [408, 413, 429, 500, 502, 503, 504, 521, 522, 524]** |
 | retry_methods | `Array` | A list of HTTP methods to retry. <br> **Default: %i[get put]** |
 | http_callback | `HttpCallBack` | The Http CallBack allows defining callables for pre and post API calls. |
-| authorization_code_auth_credentials | [`AuthorizationCodeAuthCredentials`](https://www.github.com/tahaali2000/a-sqa-ruby-sdk/tree/1.8.9/doc/auth/oauth-2-authorization-code-grant.md) | The credential object for OAuth 2 Authorization Code Grant |
+| authorization_code_auth_credentials | [`AuthorizationCodeAuthCredentials`](https://www.github.com/tahaali2000/a-sqa-ruby-sdk/tree/4.5.7/doc/auth/oauth-2-authorization-code-grant.md) | The credential object for OAuth 2 Authorization Code Grant |
 
 The API client can be initialized as follows:
 
@@ -123,34 +123,34 @@ client = SpotifyWebApiWithFixesAndImprovementsFromSonallux::Client.new(
 
 This API uses the following authentication schemes.
 
-* [`oauth_2_0 (OAuth 2 Authorization Code Grant)`](https://www.github.com/tahaali2000/a-sqa-ruby-sdk/tree/1.8.9/doc/auth/oauth-2-authorization-code-grant.md)
+* [`oauth_2_0 (OAuth 2 Authorization Code Grant)`](https://www.github.com/tahaali2000/a-sqa-ruby-sdk/tree/4.5.7/doc/auth/oauth-2-authorization-code-grant.md)
 
 ## List of APIs
 
-* [Albums](https://www.github.com/tahaali2000/a-sqa-ruby-sdk/tree/1.8.9/doc/controllers/albums.md)
-* [Artists](https://www.github.com/tahaali2000/a-sqa-ruby-sdk/tree/1.8.9/doc/controllers/artists.md)
-* [Audiobooks](https://www.github.com/tahaali2000/a-sqa-ruby-sdk/tree/1.8.9/doc/controllers/audiobooks.md)
-* [Categories](https://www.github.com/tahaali2000/a-sqa-ruby-sdk/tree/1.8.9/doc/controllers/categories.md)
-* [Chapters](https://www.github.com/tahaali2000/a-sqa-ruby-sdk/tree/1.8.9/doc/controllers/chapters.md)
-* [Episodes](https://www.github.com/tahaali2000/a-sqa-ruby-sdk/tree/1.8.9/doc/controllers/episodes.md)
-* [Genres](https://www.github.com/tahaali2000/a-sqa-ruby-sdk/tree/1.8.9/doc/controllers/genres.md)
-* [Markets](https://www.github.com/tahaali2000/a-sqa-ruby-sdk/tree/1.8.9/doc/controllers/markets.md)
-* [Player](https://www.github.com/tahaali2000/a-sqa-ruby-sdk/tree/1.8.9/doc/controllers/player.md)
-* [Playlists](https://www.github.com/tahaali2000/a-sqa-ruby-sdk/tree/1.8.9/doc/controllers/playlists.md)
-* [Search](https://www.github.com/tahaali2000/a-sqa-ruby-sdk/tree/1.8.9/doc/controllers/search.md)
-* [Shows](https://www.github.com/tahaali2000/a-sqa-ruby-sdk/tree/1.8.9/doc/controllers/shows.md)
-* [Tracks](https://www.github.com/tahaali2000/a-sqa-ruby-sdk/tree/1.8.9/doc/controllers/tracks.md)
-* [Users](https://www.github.com/tahaali2000/a-sqa-ruby-sdk/tree/1.8.9/doc/controllers/users.md)
+* [Albums](https://www.github.com/tahaali2000/a-sqa-ruby-sdk/tree/4.5.7/doc/controllers/albums.md)
+* [Artists](https://www.github.com/tahaali2000/a-sqa-ruby-sdk/tree/4.5.7/doc/controllers/artists.md)
+* [Audiobooks](https://www.github.com/tahaali2000/a-sqa-ruby-sdk/tree/4.5.7/doc/controllers/audiobooks.md)
+* [Categories](https://www.github.com/tahaali2000/a-sqa-ruby-sdk/tree/4.5.7/doc/controllers/categories.md)
+* [Chapters](https://www.github.com/tahaali2000/a-sqa-ruby-sdk/tree/4.5.7/doc/controllers/chapters.md)
+* [Episodes](https://www.github.com/tahaali2000/a-sqa-ruby-sdk/tree/4.5.7/doc/controllers/episodes.md)
+* [Genres](https://www.github.com/tahaali2000/a-sqa-ruby-sdk/tree/4.5.7/doc/controllers/genres.md)
+* [Markets](https://www.github.com/tahaali2000/a-sqa-ruby-sdk/tree/4.5.7/doc/controllers/markets.md)
+* [Player](https://www.github.com/tahaali2000/a-sqa-ruby-sdk/tree/4.5.7/doc/controllers/player.md)
+* [Playlists](https://www.github.com/tahaali2000/a-sqa-ruby-sdk/tree/4.5.7/doc/controllers/playlists.md)
+* [Search](https://www.github.com/tahaali2000/a-sqa-ruby-sdk/tree/4.5.7/doc/controllers/search.md)
+* [Shows](https://www.github.com/tahaali2000/a-sqa-ruby-sdk/tree/4.5.7/doc/controllers/shows.md)
+* [Tracks](https://www.github.com/tahaali2000/a-sqa-ruby-sdk/tree/4.5.7/doc/controllers/tracks.md)
+* [Users](https://www.github.com/tahaali2000/a-sqa-ruby-sdk/tree/4.5.7/doc/controllers/users.md)
 
 ## SDK Infrastructure
 
 ### HTTP
 
-* [HttpResponse](https://www.github.com/tahaali2000/a-sqa-ruby-sdk/tree/1.8.9/doc/http-response.md)
-* [HttpRequest](https://www.github.com/tahaali2000/a-sqa-ruby-sdk/tree/1.8.9/doc/http-request.md)
+* [HttpResponse](https://www.github.com/tahaali2000/a-sqa-ruby-sdk/tree/4.5.7/doc/http-response.md)
+* [HttpRequest](https://www.github.com/tahaali2000/a-sqa-ruby-sdk/tree/4.5.7/doc/http-request.md)
 
 ### Utilities
 
-* [ApiHelper](https://www.github.com/tahaali2000/a-sqa-ruby-sdk/tree/1.8.9/doc/api-helper.md)
-* [DateTimeHelper](https://www.github.com/tahaali2000/a-sqa-ruby-sdk/tree/1.8.9/doc/date-time-helper.md)
+* [ApiHelper](https://www.github.com/tahaali2000/a-sqa-ruby-sdk/tree/4.5.7/doc/api-helper.md)
+* [DateTimeHelper](https://www.github.com/tahaali2000/a-sqa-ruby-sdk/tree/4.5.7/doc/date-time-helper.md)
 
